@@ -5,13 +5,19 @@
   padding-top:100px;
 
 }
-.midContainer
+.middleContainer
 {
 
 }
-.bottomContainer
+.bottom-container
 {
+  margin-top:30px;
+  background-color: #E4F9F5;
+}
 
+.profile
+{
+  margin-top: 30px;
 }
 
 .pro{
@@ -23,7 +29,7 @@ body
 {
   text-align: center;
   margin:0;
-  font-family: 'Zen Kaku Gothic New', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 h1
@@ -36,16 +42,55 @@ h1
 }
 
 h2{
-  font-size:1rem;
+  font-size:2rem;
 font-family: 'Montserrat', sans-serif;
 color: #66BFBF;
-font-weight: normal;
+font-weight: bold;
 
 }
 
 h3{
   font-family: 'Montserrat', sans-serif;
   color: #11999E;
+  font-weight:bold;
+}
+
+.profile{
+  line-height: 1.4;
+}
+
+.skill-row{
+  width: 50%;
+  margin:6.25rem auto 6.25rem auto;
+  text-align: left;
+  font-size: 15px;
+  line-height: 2;
+}
+
+.guitar-skill-desc{
+  font-size: 13px;
+}
+.guitar{
+  width:35%;
+  float: right;
+  margin-left: 30px;
+
+
+}
+
+.laptop{
+  width:25%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+hr{
+  margin: 5% auto 5% auto;
+  border-style: dotted none none;
+  border-color: grey;
+  border-width: 5px;
+  width:5%;
 }
 
 .top_cloud
@@ -59,9 +104,57 @@ h3{
   color:#11999E;
 }
 
+.chat{
+  margin-bottom:30px;
+}
+
+.code-skill-desc{
+  font-size: 13px;
+}
+
 .bottom_cloud
 {
   position: absolute;
   left:300px;
   bottom: 300px;
+}
+
+.BUTTON_ZGO {
+   background: #3D94F6;
+   background-image: -webkit-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -moz-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -ms-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -o-linear-gradient(top, #3D94F6, #1E62D0);
+   background-image: -webkit-gradient(to bottom, #3D94F6, #1E62D0);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 14px;
+   font-weight: 100;
+   padding: 4px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_ZGO:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
 }
